@@ -1,8 +1,8 @@
 # ExcelSchoolCalendarToGoogle
 
-Python code that allow to import all my courses into Google Calendar Group.
+Python code that allow to import all my courses into a Google Calendar Group.
 
-Requimenets :
+Requirements :
 - Python 3.7
 - pip 
 
