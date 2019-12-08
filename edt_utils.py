@@ -71,7 +71,7 @@ def str_time_to_timestamp(pd_date, str_time):
     return res_dates
 
 
-def get_events()
+def get_events():
     # Read the edt as a panda data frame
     df = pd.read_excel('edt.xls')
 
