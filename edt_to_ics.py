@@ -2,7 +2,6 @@ import pandas as pd
 import re
 import sys
 from datetime import datetime
-from icalendar import Calendar, Event
 
 # Class containing all the information about a course
 class Course:
@@ -71,7 +70,7 @@ def str_time_to_timestamp(pd_date, str_time):
     return res_dates
 
 
-def get_events():
+def get_events()
     # Read the edt as a panda data frame
     df = pd.read_excel('edt.xls')
 
@@ -130,6 +129,7 @@ def get_events():
                                 date_start_end = str_time_to_timestamp(date, course[0].lower())
                                 course_name = course[1]
                                 professor = course[2]
+                                start_index_other = 3
                                 place = None
                                 if is_place(places,course[3]):
                                     place = course[3]
